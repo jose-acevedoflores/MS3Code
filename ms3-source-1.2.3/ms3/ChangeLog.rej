@@ -1,0 +1,11 @@
+--- ChangeLog	21 May 2013 22:58:20 -0000	1.1055
++++ ChangeLog	22 May 2013 12:22:08 -0000
+@@ -324,3 +324,8 @@
+ Re-arrange GM HEI,GMDIS, TFI mode options.
+ Add mode for C3I that should sync faster.
+ Experimental code to record time per cylinder event as %age.
++
++2013-05-22 JSM
++Disable over-dwell mode with fixed-duty dwell.
++In next-cyl basic trigger, ensure coil is fired AT trigger always.
++Apply correct bitmask to ram4.dwellmode
